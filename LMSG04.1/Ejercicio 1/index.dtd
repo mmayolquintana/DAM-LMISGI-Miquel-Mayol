@@ -1,0 +1,30 @@
+<!ELEMENT cifp (alumne*, professor*)>
+<!ELEMENT alumne (nom, llinatges, data_naixement, correu, telefon, adreca, data_matricula, curs)>
+<!ATTLIST alumne id CDATA #REQUIRED>
+
+<!ELEMENT professor (nom, llinatges, data_naixement, correu, telefon, adreca, data_incorporacio, departament, assignatura*)>
+<!ATTLIST professor id CDATA #REQUIRED>
+
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT llinatges (#PCDATA)>
+<!ELEMENT data_naixement (#PCDATA)>
+<!ELEMENT correu (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT adreca (#PCDATA)>
+<!ELEMENT data_matricula (#PCDATA)>
+
+<!ELEMENT curs EMPTY>
+<!ATTLIST curs nom (DAM | DAW) #REQUIRED>
+
+<!ELEMENT data_incorporacio (#PCDATA)>
+
+<!ELEMENT departament EMPTY>
+<!ATTLIST departament nom (Informàtica | Electricitat | Automoció) #REQUIRED>
+
+<!ELEMENT assignatura (data_inici?, data_final?, nom_assignatura)>
+<!ATTLIST assignatura id_assignatura CDATA #REQUIRED>
+
+<!ELEMENT data_inici (#PCDATA)>
+<!ELEMENT data_final (#PCDATA)>
+<!ELEMENT nom_assignatura (#PCDATA)>
+<!ATTLIST nom_assignatura cicle (DAM | DAW) #REQUIRED>

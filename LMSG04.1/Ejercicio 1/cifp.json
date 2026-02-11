@@ -1,0 +1,28 @@
+{
+    "$schema": "./cifp.schema.json",
+    "alumne": [
+        {
+            "id": 1,
+            "nom": "Miquel",
+            "llinatges": "Mayol",
+            "data_matricula": "01-09-2025",
+            "curs": "DAM"
+        }
+    ],
+    "professor": [
+        {
+            "id": 1,
+            "nom": "Jaime",
+            "llinatges": "Pericas",
+            "data_incorporacio": "2019-01-01",
+            "departament": "Informàtica",
+            "assignatura": [
+                {
+                    "id_assignatura": 1,
+                    "nom_assignatura": "Llenguatges de marques",
+                    "cicle": "DAM"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE cifp SYSTEM "index.dtd"> -->
+<!-- <?xml-model href="index.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?> -->
+<cifp>
+	<alumne id="1">
+		<nom>Miquel</nom>
+		<llinatges>Mayol</llinatges>
+		<data_naixement>17-10-2005</data_naixement>
+		<correu>miquelmq2005@gmail.com</correu>
+		<telefon>645732797</telefon>
+		<adreca>Antonio Vivaldi, 3, 2A, Palma</adreca>
+
+		<!-- No comuns -->
+
+		<data_matricula>01-09-2025</data_matricula>
+		<curs nom="DAM"/>
+	</alumne>
+
+	<alumne id="2">
+		<nom>Ana</nom>
+		<llinatges>Maria</llinatges>
+		<data_naixement>19-03-2006</data_naixement>
+		<correu>a.maria@gmail.com</correu>
+		<telefon>609783029</telefon>
+		<adreca>Avda Sant Antoni, Eivissa</adreca>
+
+		<!-- No comuns -->
+
+		<data_matricula>01-09-2025</data_matricula>
+		<curs nom="DAW"/>
+		
+	</alumne>
+
+	<professor id="1">
+		<nom>Jaime Juan</nom>
+		<llinatges>Pericas Oliver</llinatges>
+		<data_naixement>01-01-2000</data_naixement>
+		<correu>jaime.pericas@example.com</correu>
+		<telefon>+34 928302134</telefon>
+		<adreca>Carrer Major, 12, Petra</adreca>
+
+		<!-- No comuns -->
+
+		<data_incorporacio>2015-01-01</data_incorporacio>
+		<departament nom="Informàtica"></departament>
+		<assignatura id_assignatura="1">
+			<data_inici>01-09-2025</data_inici>
+			<data_final>01-06-2026</data_final>
+			<nom_assignatura cicle="DAM">Llenguatges de marques</nom_assignatura>
+		</assignatura>
+	</professor>
+
+	<professor id="2">
+		<nom>Xavier</nom>
+		<llinatges>Sastre Flexas</llinatges>
+		<data_naixement>01-01-1970</data_naixement>
+		<correu>xsastre@example.com</correu>
+		<telefon>+34 123958434</telefon>
+		<adreca>Passeig Mallorca, 13, Palma</adreca>
+
+		<!-- No comuns -->
+
+		<data_incorporacio>2019-01-10</data_incorporacio>
+		<departament nom="Informàtica"></departament>
+		<assignatura id_assignatura="2">
+			<data_inici>01-09-2025</data_inici>
+			<data_final>01-06-2026</data_final>
+			<nom_assignatura cicle="DAW">Interficies</nom_assignatura>
+		</assignatura>
+	</professor>
+</cifp>
